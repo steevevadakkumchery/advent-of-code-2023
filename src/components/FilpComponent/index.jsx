@@ -34,7 +34,7 @@ const Star = ({ top, left, onPositionChange }) => {
       style={{ top: top + 'px', left: left + 'px' }}
     />
   )
-}
+};
 
 const Tree = () => {
   const [starPositions, setStarPositions] = useState(starCoordinates)
